@@ -11,6 +11,10 @@ body{
   
 }
 
+.all {
+
+}
+
 .table{
     width: 100%;
 
@@ -20,13 +24,14 @@ body{
     padding-bottom: 10px;
  }
  
- .table.td:nth-child(1){
-     color: #fff9dc;
- }
 
 .info {
     display: flex;
     margin-bottom: 15px;
+}
+
+.skills h3{
+    text-align: center;
 }
 
 .info-text h3 {
@@ -81,7 +86,7 @@ a:active{
     color:blue;
 }
 a:visited{
-    color:gray;
+    color:rgb(43, 41, 41);
 }
 
 .bg-red {
@@ -99,6 +104,11 @@ a:visited{
     margin-bottom: 15px;
     border-radius: 20px;
 }
+
+.list h3 {
+    text-align: center;
+}
+
 .list {
     padding: 0 20px;
     list-style: square;
@@ -131,8 +141,6 @@ a:visited{
 
 .btn {
     background-color: black;
-    width: 70px;
-    height: 15px;
     padding: 15px 10px 10px 10px;
     color: white;
     border: none;
