@@ -24,29 +24,50 @@ body{
      color: #fff9dc;
  }
 
-.info p {
-    color: #86898f;
+.info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.info-text h3 {
+    text-align:center;
+    font-weight: bold;
+    color:#020202
+}
+ .info p {
+    color: #505050;
     margin: 0;
     font-style: italic;
     font-weight: bold;
     text-decoration: none;
     /*text-transform:none;*/
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
     word-spacing: 1px;
     padding: 10px,20px 20px 20px;
 
 }
+
+.info-text {
+   margin-left: 25px;
+   width: 100%; 
+   background-color: #e5ffe7;
+   border-radius: 20px;
+   padding: 10px 10px 10px 10px;
+}
+.info-text h4 {
+    margin-bottom: 5px 5px 5px 5px; 
+}
+
 .avatar {
     border-radius: 44px;
     box-shadow: 4px 4px 14px rgba(214, 11, 11, 0);
 
 }
-.contact {
+#link {
     max-width:100%;
     margin: 2px;
-    padding: 20px 20px 20px;
-    border: 10px solid rgb(222, 182, 245);
-    border-style: dotted;
+    padding: 0px 0px 20px;
+    
 
 }
 a {
@@ -81,4 +102,29 @@ a:visited{
 .list {
     padding: 0 20px;
     list-style: square;
+}
+
+.contact h3 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #373738;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-spacing: 5px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
 }
