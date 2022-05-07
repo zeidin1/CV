@@ -1,5 +1,6 @@
 @import url(https://fonts.google.com/specimen/Roboto);
 
+
 body{
   background-color: #f1f1f1;
   color: #0f141e;
@@ -9,7 +10,21 @@ body{
   font-family: 'roboto', 'sans-serif';
   
 }
-.info p {
+
+.table{
+    width: 100%;
+
+}
+
+ .table.td {
+    padding-bottom: 10px;
+ }
+ 
+ .table.td:nth-child(1){
+     color: #fff9dc;
+ }
+
+.info {
     color: #86898f;
     margin: 0;
     font-style: italic;
@@ -18,6 +33,7 @@ body{
     /*text-transform:none;*/
     letter-spacing: 0.7px;
     word-spacing: 1px;
+    padding: 10px,20px 20px 20px;
 
 }
 .avatar {
@@ -28,8 +44,41 @@ body{
 .contact {
     max-width:100%;
     margin: 2px;
-    padding: 15px 40px;
+    padding: 20px 20px 20px;
     border: 10px solid rgb(222, 182, 245);
     border-style: dotted;
 
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color:gray;
+}
+
+.bg-red {
+    background-color: #ffe5e5 ;
+}
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+
+.card{
+    padding: 15px 20px;
+    /*background-color:*/
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.list {
+    padding: 0 20px;
+    list-style: square;
 }
