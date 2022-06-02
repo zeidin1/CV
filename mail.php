@@ -16,7 +16,7 @@ $mail->Host = 'smtp-mail.outlook.com';  																							// Specify main a
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'copwebil2133@outlook.com'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = 'Arufir18'; // Ваш пароль от почты с которой будут отправляться письма
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('copwebil2133@outlook.com'); // от кого будет уходить письмо?
