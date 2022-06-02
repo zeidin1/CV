@@ -30,7 +30,7 @@ $mail->addAddress('zeisin.a21@gmail.com');     // Кому будет уходи
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Messege from CV site';
-$mail->Body    = '' .$name . ' оставил заявку, Почта этого пользователя: ' .$email . 'його повідомлення:' .$text ; 
+$mail->Body    = '' .$name . ' залишив заявку , Пошта цього користувача: ' .$email . 'його повідомлення: ' .$text ; 
 $mail->AltBody = '';
 
 if(!$mail->send()) {
