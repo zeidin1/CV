@@ -11,9 +11,6 @@ body{
   
 }
 
-.all {
-
-}
 
 .table{
     width: 100%;
@@ -101,6 +98,7 @@ a:visited{
 
 
 .card{
+    display: f;
     padding: 15px 20px;
     /*background-color:*/
     margin-bottom: 15px;
